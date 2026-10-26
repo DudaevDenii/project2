@@ -2,29 +2,31 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>index.html - Deni Dudaev</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
-  <body>
+  <body class="page-home">
     <header>
-      <nav>
+      <nav aria-label="Main navigation">
         <ul>
-          <li><a href="index.html">index.html</a></li>
-          <li><a href="resume.html">resume.html</a></li>
-          <li><a href="page3.html">page3.html</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="page3.html">Personal</a></li>
         </ul>
       </nav>
       <h1>Home Page</h1>
       <p>My name is Deni Dudaev. I am a student at Illinois Institute of Technology in Chicago. This site is my academic and professional portfolio for Web Development. The home page introduces my interest in software engineering, cloud systems, and campus technology. The resume page is my professional resume. The third page is about the Ed Kaplan Family Institute for Innovation and Tech Entrepreneurship.</p>
     </header>
     <main>
-      <section>
+      <section class="home-about">
         <h2>About Me</h2>
         <img src="images/profile.png" alt="Person typing on a laptop with digital code overlay">
         <p>I study Information Technology and Management with a focus on backend software, Linux systems, and cloud infrastructure. I want to work as a software engineer who builds reliable services, writes tests, and understands how networks and servers support applications in production.</p>
         <p>Chicago is a strong place to learn this work because it has universities, research labs, and technology employers. I use class projects to practice clear documentation, careful HTML, and code that other people can read.</p>
         <p>Outside of class I follow topics such as container deployment, database design, and how large systems stay online when traffic grows. I also like walking through campus labs and seeing how students turn ideas into working prototypes.</p>
       </section>
-      <section>
+      <section class="home-focus">
         <h2>Academic and Technical Focus</h2>
         <article>
           <h3>Cloud and Distributed Systems</h3>
@@ -39,7 +41,7 @@
           <p>Good software is tested, documented, and reviewed. I work on writing functions that do one job well, naming things clearly, and checking my pages with the W3C HTML validator so the markup follows public web standards.</p>
         </article>
       </section>
-      <section>
+      <section class="home-tech">
         <h2>Technologies I Am Learning</h2>
         <ul>
           <li>Programming languages: Python, C++, Go, JavaScript, and SQL</li>
@@ -47,20 +49,10 @@
           <li>Practices: automated testing, version control with Git, and performance tuning</li>
         </ul>
       </section>
-      <section>
+      <section class="home-links">
         <h2>What You Will Find on This Site</h2>
-        <p>Use the bulleted list at the top of every page to move between files. index.html is this home page. resume.html is my professional resume, including education, skills, and work history. page3.html is a campus media page with a video walkthrough of engineering spaces at Illinois Tech and a photo of the Kaplan Institute.</p>
-        <p>The site is written in HTML only. There is no CSS file, no style element, and no presentational attributes. Images and video are stored in local folders and linked with relative paths such as images/profile.png and media/demo.mp4.</p>
-      </section>
-      <section>
-        <h2>W3C HTML Validation</h2>
-        <p>Each page was checked with the W3C Nu HTML Checker. The screenshots below show successful validation for all three files.</p>
-        <h3>index.html</h3>
-        <img src="images/validation-index.png" alt="W3C HTML validator result showing index.html is valid">
-        <h3>resume.html</h3>
-        <img src="images/validation-resume.png" alt="W3C HTML validator result showing resume.html is valid">
-        <h3>page3.html</h3>
-        <img src="images/validation-page3.png" alt="W3C HTML validator result showing page3.html is valid">
+        <p>Use the navigation at the top of every page to move between files. index.html is this home page. resume.html is my professional resume, including education, skills, and work history. page3.html is a campus media page with a video walkthrough of engineering spaces at Illinois Tech and a photo of the Kaplan Institute.</p>
+        <p>Images and video are stored in local folders and linked with relative paths such as images/profile.png and media/demo.mp4.</p>
       </section>
     </main>
     <footer>

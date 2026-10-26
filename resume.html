@@ -2,15 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>resume.html - Deni Dudaev</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
-  <body>
+  <body class="page-resume">
     <header>
-      <nav>
+      <nav aria-label="Main navigation">
         <ul>
-          <li><a href="index.html">index.html</a></li>
-          <li><a href="resume.html">resume.html</a></li>
-          <li><a href="page3.html">page3.html</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="page3.html">Personal</a></li>
         </ul>
       </nav>
       <h1>Deni Dudaev</h1>
@@ -20,15 +22,15 @@
       <p>GitHub: github.com/DeniiDudaev</p>
     </header>
     <main>
-      <section>
+      <section class="resume-summary">
         <h2>Professional Summary</h2>
         <p>Software engineer with experience at Microsoft working on cloud infrastructure, distributed microservices, and backend tooling. I focus on system reliability, faster deployment pipelines, and working with other engineers to keep enterprise services available.</p>
       </section>
-      <section>
+      <section class="resume-experience">
         <h2>Work Experience</h2>
         <article>
           <h3>Software Engineer</h3>
-          <img src="images/microsoft.png" alt="Microsoft company logo">
+          <img class="resume-company-logo" src="images/microsoft.png" alt="Microsoft company logo">
           <p>Microsoft. Cloud and AI Division. Redmond, WA. Remote and hybrid.</p>
           <p>June 2026 to Present</p>
           <ul>
@@ -51,7 +53,7 @@
           </ul>
         </article>
       </section>
-      <section>
+      <section class="resume-education">
         <h2>Education</h2>
         <article>
           <h3>Bachelor in Information Technology and Management</h3>
@@ -59,7 +61,7 @@
           <p>Focus areas: systems architecture, networking, cloud computing, and database administration.</p>
         </article>
       </section>
-      <section>
+      <section class="resume-skills">
         <h2>Technical Skills</h2>
         <ul>
           <li>Programming languages: Python, C++, JavaScript, TypeScript, Go, and SQL</li>
@@ -77,11 +79,6 @@
           <h3>Distributed Cache Verification Tool</h3>
           <p>Wrote a small benchmarking tool that measures cache hit ratios and network latency across a multi-node test environment.</p>
         </article>
-      </section>
-      <section>
-        <h2>W3C HTML Validation</h2>
-        <p>This resume page was checked with the W3C Nu HTML Checker. The screenshot shows a successful validation result.</p>
-        <img src="images/validation-resume.png" alt="W3C HTML validator result showing resume.html is valid">
       </section>
     </main>
     <footer>
